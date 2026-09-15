@@ -45,8 +45,8 @@ let package = Package(
             ),
             .binaryTarget(
                 name: "BlueSeaSDK",
-                url: "https://sdk.cdn.blueseasx.com/ios/V1.7.1/2026090900/BlueSeaSDK.xcframework.zip",
-                checksum: "dfe2ffaddfb076f546d6ff64395757ff409f6fab91cf97e9259faed33a188f8c"
+                url: "https://sdk.cdn.blueseasx.com/ios/V1.9.0/2026091500/BlueSeaSDK.xcframework.zip",
+                checksum: "892c2706b75a8308513a782c2a73858bb5d1648fe11e4c3ef19cccb468d22c67"
             ),
         ]
 )
