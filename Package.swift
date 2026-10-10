@@ -1,4 +1,4 @@
-// swift-tools-version: 6.3
+// swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -40,13 +40,13 @@ let package = Package(
                     
                     // NOTE: Swift Package Manager currently does not allow dependencies with unsafeFlags, unless a specific branch/commit is used.
                     // For now, these flags should be added manually to the project for integration.
-                    .unsafeFlags(["-ObjC"])
+                    // .unsafeFlags(["-ObjC"])
                 ]
             ),
             .binaryTarget(
                 name: "BlueSeaSDK",
-                url: "https://sdk.cdn.blueseasx.com/ios/V1.9.0/2026091500/BlueSeaSDK.xcframework.zip",
-                checksum: "892c2706b75a8308513a782c2a73858bb5d1648fe11e4c3ef19cccb468d22c67"
+                url: "https://sdk.cdn.blueseasx.com/ios/V1.9.1/2026101000/BlueSeaSDK.xcframework.zip",
+                checksum: "b1ed41c158d5f9c833f8fee1d0da890053d7595a7e64be3a9a11bac7bd5ce1d4"
             ),
         ]
 )

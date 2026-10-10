@@ -12,7 +12,7 @@ To integrate the BlueSea SDK into your Xcode project using Swift Package Manager
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/blueseasx/BlueSeaSDK-Swift-Package.git", .upToNextMajor(from: "1.9.0"))
+    .package(url: "https://github.com/blueseasx/BlueSeaSDK-Swift-Package.git", .upToNextMajor(from: "1.9.1"))
 ]
 ```
 
